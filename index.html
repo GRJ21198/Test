@@ -13,9 +13,6 @@ chat='true'>
 <body>
     <h2>Contact Us</h2>
     <form id="grj"> 
-        <script>  
-document.querySelector("#grj > button").type = "submit"; 
-</script>
         <label for="name">Your Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
         
@@ -25,7 +22,12 @@ document.querySelector("#grj > button").type = "submit";
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" rows="4" required></textarea><br><br>
         
-        <button> <span class="l7_2fn wixui-button__label">Send</span></button>
+        <button> <span class="l7_2fn wixui-button__label"> Send </span> </button>
     </form>
+
+    <script>  
+document.querySelector("#grj > button").type = "submit"; 
+</script>
+    
 </body>
 </html>
